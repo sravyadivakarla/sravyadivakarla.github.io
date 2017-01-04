@@ -164,7 +164,7 @@ rect {
 ul {
     list-style-type: none;
     margin: 0;
-    padding-left: 1000px;
+    padding-left: 500px;
     overflow: hidden;
     background-color: #3A3A3A;
     border-radius: 8px;
@@ -191,4 +191,7 @@ li a:hover, a:active {
 }
 h1{
   padding: 0px 5px;
+}
+p{
+  color: white;
 }

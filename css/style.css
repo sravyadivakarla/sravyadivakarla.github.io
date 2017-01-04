@@ -1,0 +1,182 @@
+html,
+body {
+    background-color: aqua;
+    padding: 0px;
+    margin: 0px;
+}
+
+.FullPage {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/*each page div*/
+
+#Home {
+    background-color: black;
+}
+
+#Work {
+    background-color: #ed4854;
+}
+
+
+/*Home Page******************************************/
+
+
+/*top Title*/
+
+#topTitle {
+    width: 100vw;
+    margin: 0 auto;
+    height: 20vh;
+    position: relative;
+    padding: 0;
+    /*background-color: red;*/
+}
+
+#titledesc {
+    text-align: center;
+    margin: 0 auto;
+    color: #ed4854;
+    padding: 5vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 6.5vh;
+}
+
+#imageHome {
+    display: flex;
+    width: 100vw;
+    margin: 0 auto;
+    height: 70vh;
+    position: relative;
+    align-items: center;
+    /*vertical center*/
+    justify-content: center;
+    /*horizontal center*/
+    /*background-color: antiquewhite;*/
+}
+
+#imageHome img {
+    width: auto;
+    height: 100%;
+    padding-bottom: 10vh;
+}
+
+
+/*navigation bottom*/
+
+#navigationBar {
+    display: flex;
+    width: 100vw;
+    margin: 0 auto;
+    height: 10vh;
+    position: relative;
+    align-items: center;
+    /*background-color: red;*/
+}
+
+#navigationHome {
+    margin: 0 auto;
+    list-style: none;
+    /*margin-left: -10px;*/
+}
+
+#navigationHome li {
+    float: left;
+}
+
+#navigationHome a {
+    display: block;
+    width: 100px;
+    /*text-align: center;*/
+    /*space between each li*/
+    text-decoration: none;
+    color: #ed4854;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5vh;
+}
+
+
+/*ABOUT PAGE************************************/
+
+#About {
+    background-color: #ed4854;
+    display: flex;
+}
+
+
+/*LEFT SIDE IMAGE */
+
+#imageAbout {
+    display: flex;
+    width: auto;
+    margin: 0 auto;
+    height: 100vh;
+    position: relative;
+    /*align-items: center;*/
+    /*vertical center*/
+    /* justify-content: center;*/
+    /*horizontal center*/
+    /*background-color: red;*/
+}
+
+#imageAbout img {
+    width: auto;
+    height: 85%;
+    padding-top: 7vh;
+}
+
+
+/*content*/
+
+#content {
+    flex-grow: 2;
+    /*background-color: aqua;*/
+}
+
+
+/*Right side Image*/
+
+#borderAbout {
+    width: auto;
+    margin: 0 auto;
+    height: 100vh;
+    position: relative;
+    /*align-items: center;*/
+    /*vertical center*/
+    /* justify-content: center;*/
+    /*horizontal center*/
+    /*background-color: red;*/
+}
+
+#borderAbout img {
+    width: auto;
+    height: 100%;
+}
+
+
+/*RESUME PAGE************************************/
+
+#Resume {
+    background-color: black;
+}
+
+#topTitleResume {
+    width: 100vw;
+    margin: 0 auto;
+    height: 20vh;
+    position: relative;
+    padding: 0;
+    /*background-color: red;*/
+}
+
+#titledescResume {
+    text-align: center;
+    margin: 0 auto;
+    color: #ed4854;
+    padding: 6vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 7.5vh;
+}
