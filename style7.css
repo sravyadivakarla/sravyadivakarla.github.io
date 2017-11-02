@@ -17,7 +17,8 @@ body{
 
   color: #ef456e;
   font-family: courier, terminal;
-color: #80FF80; // a bright green
+  color: #80FF80; // a bright green
+
 
 }
 img.mephoto {
@@ -54,9 +55,19 @@ a{
   align-items: center;
   justify-content: center;
   text-align: center;
+
+}
+.WorkSection{
+  display: flex;
+  flex-direction: column;
+
 }
 .WorkLinks{
+  align-items: left;
+  justify-content: center;
   text-align: left;
+
+
 }
 /* ^^ common*/
 
@@ -78,6 +89,17 @@ a{
      width: 70px;
      height: auto;
    }
+   .WorkLinks{
+     padding-left: 20vw;
+     align-items: left;
+     justify-content: center;
+     text-align: left;
+   }
+   a{
+     font-size: 2.5vw;
+
+   }
+
 }
 
 
@@ -87,8 +109,12 @@ a{
       height: 100vh;
       width: 100vw;
     }
-    .column {
+    .AboutMe {
         height: 100vh;
-        width: 50vw;
+        width: 60vw;
+    }
+    .WorkLinks{
+      height: 100vh;
+      width: 40vw;
     }
 }
